@@ -7,6 +7,7 @@
 }
 
 *, *:before, *:after {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -72,3 +73,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+.header {
+    width: 100%;
+    padding: 10px;
+    background-color: #225dcc;
+}
+
+.header__title {
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 24px;
+    background-color: #fff;
+    color: #121212;
+    border-radius: 10px 10px 15px 15px;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}

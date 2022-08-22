@@ -1,5 +1,9 @@
-// Файл обнуляющих стилей
-@import "nullstyle.scss";
+// Переменные
+@import "vars";
 
-// Переменные для блока
-	
+// Файл обнуляющих стилей
+@import "nullstyle";
+
+// Блоки
+@import "blocks/header";
+@import "blocks/btn";

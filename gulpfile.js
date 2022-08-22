@@ -76,7 +76,7 @@ function css() {
         .pipe(plumber())
         .pipe(sass())
         .pipe(autoprefixer({
-            Browserslist: ['last 8 versions'],
+            overrideBrowserslist: ['last 8 versions'],
             cascade: true
         }))
         .pipe(cssbeautify())
